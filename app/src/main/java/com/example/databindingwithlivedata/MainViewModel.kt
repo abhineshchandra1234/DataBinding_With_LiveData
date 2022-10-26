@@ -1,13 +1,15 @@
 package com.example.databindingwithlivedata
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class MainViewModel: ViewModel() {
 
-    val profileLiveData = MutableLiveData("Android Developer")
+    private val profileObject = MutableLiveData("Android Developer")
+    val profileLiveData: LiveData<String> get() = profileObject
 
     fun updateProfile() {
-        profileLiveData.value = "Full Stack Developer"
+        profileObject.value = "Full Stack Developer"
     }
 }
