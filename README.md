@@ -7,13 +7,19 @@ This project explains how to use Data Binding with LiveData.
     
 ---
 
-## LiveData
-- LiveData is an observable data holder class. It is lifecycle aware.
-- It only updates app component observers like activities, fragments, or services when they are in an active lifecycle state.
-- We could have implemented this project through only ViewModel. It would have handled the configuration change and will work the same but the major difference is that in ViewModel we need to update ui manually and it lags alot bcs to this and you can easily notice the difference in UX.
+## DataBinding
+- As the name suggests, the data binding library allows us to bind UI components of the layout with data sources declaratively rather than programmatically.
+---
 
+## One-Way DataBinding
+- In one-way data binding, only the data source can update the views on data change, views cannot update the data source.
+- android:text=”@{employee.name}”
 ![LiveData](https://github.com/abhineshchandra1234/LiveDataApp/blob/master/images/LiveData.png)
+---
 
+## Two-Way DataBinding
+- Both the view and data source are in sync. Every change in view will be reflected on the data source and vice versa.
+- android:text=”@={mainViewModel.nameLiveData}”
 ---
 
 ## App Screenshots
