@@ -1,6 +1,6 @@
-<h1 align="center">LiveData</h1>
+<h1 align="center">Data Binding</h1>
 
-<h3 align="center"><i>"Observe live data changes and perform operations"</i></h3>
+<h3 align="center"><i>"Update layout directly through data source"</i></h3>
 <p align="center">
 This project explains about LiveData using a simple counter app. It follows all the best practices used for LiveData.
     </p>
