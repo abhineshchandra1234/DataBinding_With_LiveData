@@ -24,7 +24,7 @@ This project explains how to use Data Binding with LiveData.
 ---
 
 ### References
-- [[https://youtu.be/UGBHHkUyL5c](https://youtu.be/TVlpENKIg2A)]([https://youtu.be/UGBHHkUyL5c](https://youtu.be/TVlpENKIg2A))
+- [https://youtu.be/TVlpENKIg2A](https://youtu.be/TVlpENKIg2A)
 - [https://www.codementor.io/@elirangoshen/android-data-binding-5wnz20h6x](https://www.codementor.io/@elirangoshen/android-data-binding-5wnz20h6x)
 - [https://medium.com/@abhineshchandra1234/data-binding-in-kotlin-ac70f63396aa](https://medium.com/@abhineshchandra1234/data-binding-in-kotlin-ac70f63396aa)
 
