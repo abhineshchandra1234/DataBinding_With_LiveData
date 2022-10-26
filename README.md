@@ -14,7 +14,7 @@ This project explains how to use Data Binding with LiveData.
 ## One-Way DataBinding
 - In one-way data binding, only the data source can update the views on data change, views cannot update the data source.
 - android:text=”@{employee.name}”
-![LiveData](https://github.com/abhineshchandra1234/LiveDataApp/blob/master/images/LiveData.png)
+- ![LiveData](https://github.com/abhineshchandra1234/LiveDataApp/blob/master/images/LiveData.png)
 ---
 
 ## Two-Way DataBinding
