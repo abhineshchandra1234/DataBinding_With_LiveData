@@ -16,6 +16,7 @@ This project explains how to use Data Binding with LiveData.
 - android:text=”@{employee.name}”
 
 ![One-Way DataBinding](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/one-way.png)
+
 ---
 
 ## Two-Way DataBinding
@@ -23,6 +24,11 @@ This project explains how to use Data Binding with LiveData.
 - android:text=”@={mainViewModel.nameLiveData}”
 
 ![Two-Way DataBinding](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/two-way.png)
+
+---
+## Agenda
+- we have used one-way data binding to update profile text using LiveData
+- we have shown how to use data variable,layout expressions
 ---
 
 ## App Screenshots
