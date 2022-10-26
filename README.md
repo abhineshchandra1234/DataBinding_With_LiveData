@@ -2,7 +2,7 @@
 
 <h3 align="center"><i>"Update layout directly through data source"</i></h3>
 <p align="center">
-This project explains about LiveData using a simple counter app. It follows all the best practices used for LiveData.
+This project explains how to use Data Binding with LiveData.
     </p>
     
 ---
