@@ -18,24 +18,8 @@ This project explains how to use Data Binding with LiveData.
 
 ## App Screenshots
 
-![potrait](https://github.com/abhineshchandra1234/LiveDataApp/blob/master/images/potrait.png) 
-![landscape](https://github.com/abhineshchandra1234/LiveDataApp/blob/master/images/landscape.png)
-
----
-
-### 1. Gradle Setup
-Add `ViewModel` and `LiveData` dependency on app level gradle file
-
-<details>
-  <summary><b>Android (Gradle - APP)</b></summary>
-
-```kotlin
-    //ViewModel
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
-    //LiveData
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
-```
-</details>
+![LiveData1](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/LiveData1.png) 
+![LiveData2](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/LiveData2.png)
 
 ---
 
