@@ -23,63 +23,10 @@ This project explains how to use Data Binding with LiveData.
 
 ---
 
-### 2. ViewModel and LiveData declaration
-- You can see in the code below we have create a ViewModel class. 
-- Inside this we have created countObject as MutableLiveData object with default value as 0. We have created another LiveData object count. 
-- MutableLiveData is generally used inside the ViewModel and updated inside it only as you can see with increment method.
-- ViewModel exposes Immutable LiveData object here count to fetch MutableLiveData countObject value. It also restrict observers from changing the LiveData value.
-
-<details>
-  <summary><b>MainViewModel.kt</b></summary>
-
-```kotlin
-   class MainViewModel : ViewModel() {
-    private val countObject = MutableLiveData<Int>(0)
-
-    val count : LiveData<Int> get() = countObject
-
-    fun increment() {
-        countObject.value = countObject.value?.plus(1)
-    }
-}
-```
-</details>
-    
----
-    
-### 3. Observe LiveData and update UI automatically
-- You can see in the below code we are observing the LiveData value change and updatiing the UI with the latest data.
-- we observe LiveData to avoid making unnecessary calls from an activity or fragment onResume() method and to ensure that view has some data to display as soon as it 
- is created.
-    
-<details>
-  <summary><b>MainActivity.kt</b></summary>
-
-```kotlin
-   override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        mainViewModel.count.observe(this) {
-            setText(it)
-        }
-    }
-```
-</details>
-
----
-
-> **Note**  
-> For complete code checkout the LiveData github repo
-    
----
-   
-### See Also
-- [ViewModelApp](https://github.com/abhineshchandra1234/ViewModelApp)
----
-
 ### References
-- [https://youtu.be/UGBHHkUyL5c](https://youtu.be/UGBHHkUyL5c)
-- [https://developer.android.com/topic/libraries/architecture/livedata](https://developer.android.com/topic/libraries/architecture/livedata)
+- [[https://youtu.be/UGBHHkUyL5c](https://youtu.be/TVlpENKIg2A)]([https://youtu.be/UGBHHkUyL5c](https://youtu.be/TVlpENKIg2A))
+- [https://www.codementor.io/@elirangoshen/android-data-binding-5wnz20h6x](https://www.codementor.io/@elirangoshen/android-data-binding-5wnz20h6x)
+- [https://medium.com/@abhineshchandra1234/data-binding-in-kotlin-ac70f63396aa](https://medium.com/@abhineshchandra1234/data-binding-in-kotlin-ac70f63396aa)
 
 ---
 
