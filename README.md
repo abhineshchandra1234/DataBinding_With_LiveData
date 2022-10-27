@@ -31,10 +31,17 @@ This project explains how to use Data Binding with LiveData.
 - we have shown how to use data variable,layout expressions
 ---
 
-## App Screenshots
+## One-Way Data Binding
 
 ![LiveData1](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/LiveData1.png) 
 ![LiveData2](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/LiveData2.png)
+
+---
+
+## Two-Way Data Binding
+
+![two-way1](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/two-way1.png) 
+![two-way2](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/two-way2.png)
 
 ---
 
