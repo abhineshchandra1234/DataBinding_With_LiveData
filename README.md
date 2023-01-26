@@ -16,7 +16,6 @@ This project explains how to use Data Binding with LiveData.
 - android:text=”@{employee.name}”
 
 ![One-Way DataBinding](https://github.com/abhineshchandra1234/DataBinding_With_LiveData/blob/master/screenshots/one-way.png)
-<img src="./screenshots/one-way.png">.
 
 ---
 
